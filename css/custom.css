@@ -5,3 +5,7 @@
 .navbar {
     background: #ffffff00 !important;
 }
+
+.footer-image {
+    background-image: url(../images/encuentra.jpg);
+}
