@@ -50,6 +50,145 @@
         <h1 class="text-center">Casa en venta frente al Bosque</h1>
     </div>
 
+    <div class="container">
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/inmueble-1.jpg" alt="Los Angeles" class="d-block w-100">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="space-section"></div>
+        <div class="row g-0">
+            <div class="col-sm-6 col-md-3">
+            </div>
+            <div class="col-sm-6 col-md-6">
+                <div class="row">
+                    <div class="col">
+                        <div class="mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="./images/icono_wc.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <p class="card-text"><strong>2</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="./images/icono_dormitorio.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <p class="card-text"><strong>3</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="mb-3">
+                            <div class="row g-0">
+                                <div class="col-md-6">
+                                    <img src="./images/icono_estacionamiento.svg" class="img-fluid" alt="">
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="card-body">
+                                        <p class="card-text"><strong>1</strong></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-section"></div>
+                <p>precio: <strong class="text-success">3,300,000</strong></p>
+                <div class="space-section"></div>
+                <p>
+                    In mattis, eros ut finibus ultricies, lorem ligula euismod nibh, finibus fringilla neque sapien eget
+                    eros. Nam consectetur tristique nunc, in maximus ex dignissim at. Etiam tempor nunc a eros
+                    tincidunt, ac posuere erat elementum. Maecenas eleifend volutpat auctor. Sed libero odio, efficitur
+                    at malesuada eget, tempus id neque. Pellentesque turpis risus, mollis et turpis eget, sagittis
+                    venenatis mi. Nunc laoreet auctor metus. Integer luctus varius nunc id consectetur.
+                </p>
+                <div class="space-section"></div>
+                <p>
+                    Integer faucibus non dui id pretium. Fusce semper suscipit dui, quis accumsan dolor posuere vitae.
+                    Vivamus molestie porttitor justo, a aliquam mi finibus eget. Curabitur eu faucibus diam, at rutrum
+                    urna. Etiam iaculis massa et eros blandit feugiat. Ut pharetra, erat nec suscipit elementum, s ex
+                    commodo ipsum, quis finibus nunc tortor a enim. Etiam eleifend felis a erat egestas maximus.
+                </p>
+                <div class="space-section"></div>
+
+                <button type="button" class="btn btn-success btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal" data-bs-whatever="">Contactanos</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Escribenos</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="basic-url" class="form-label"><strong>Nombre:</strong></label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Tu Nombre"
+                                                aria-describedby="basic-addon2">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="basic-url" class="form-label"><strong>Email:</strong></label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="Tu correo electrónico"
+                                                aria-describedby="basic-addon2">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="basic-url" class="form-label"><strong>Teléfono:</strong></label>
+                                        <div class="input-group">
+                                            <input type="text" class="form-control" placeholder="987654321"
+                                                aria-describedby="basic-addon2">
+                                        </div>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="basic-url" class="form-label"><strong>Mensaje:</strong></label>
+                                        <div class="input-group">
+                                            <textarea class="form-control" placeholder="Mensaje" id="floatingTextarea2"
+                                                style="height: 100px"></textarea>
+                                        </div>
+                                    </div>
+                                    <button type="button" class="btn btn-success btn-lg">Enviar</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-section"></div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+            </div>
+        </div>
+    </div>
     <div class="footer">
         <div class="container text-center">
             <div class="space-section"></div>
