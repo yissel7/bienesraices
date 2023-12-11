@@ -20,17 +20,21 @@
 .text-form {
     font-size: 2rem !important;
 }
-.titulo {
-    text-shadow: 1px 2px 2px black;
+
+/* Título de Index */
+.home-titulo {
+    text-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    font-weight: 700;
+    font-size: 42px;
+    color: #fff;
+    text-align: center;
+    margin: 17px 0 32px;
 }
 
 
 /* Menu */
 .navbar {
     background: #ffffff00 !important;
-}
-.text-white {
-    color: white !important;
 }
 
 .footer-image {
