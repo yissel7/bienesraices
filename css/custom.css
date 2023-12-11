@@ -40,6 +40,7 @@
     text-align: center;
     margin: 17px 0 32px;
 }
+
 /* Título de section */
 .title-home {
     font-weight: 600;
@@ -54,7 +55,114 @@
     background: #ffffff00 !important;
 }
 
+/* Color background-contigo */
+.background-contigo {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    background-position: left 10px bottom 10px;
+    background-repeat: no-repeat;
+    background-color: #f3f7f8;
+    background-size: contain;
+}
+
 .footer-image {
     background-image: url(../images/encuentra.jpg);
     color: white;
 }
+
+.jujdoP {
+    display: flex;
+    position: relative;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    top: 29px;
+}
+
+.cNAIQu {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 290px;
+    height: 133px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 40px;
+}
+.cNAIPR {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 290px;
+    height: 133px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 40px;
+}
+
+.hGbWyz {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 290px;
+    height: 133px;
+    background: rgb(255, 255, 255);
+    border-radius: 12px;
+    text-align: center;
+    margin-right: 0px;
+}
+.kmlTsZ {
+    font-weight: 600;
+    font-size: 20px;
+    position: relative;
+    top: 2px;
+    padding: 12px;
+}
+
+.ezyESP {
+    background-image: url(../images/home-te-acompanamos1.svg);
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: -25px;
+}
+
+
+.hEBjrP {
+    background-image: url(../images/home-te-acompanamos2.svg);
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: -25px;
+}
+.gLaPwC {
+    background-image: url(../images/home-te-acompanamos3.svg);
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: -25px;
+}
+.ljKntD {
+    background-image: url(../images/home-te-acompanamos4.svg);
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    position: relative;
+    top: -25px;
+}
+
+.sc-kYxDKI {
+    position: absolute;
+    top: -38px;
+}
+.sc-eyvILC.gEtyQd {
+    padding: 0 12px 12px 12px;
+}
+
