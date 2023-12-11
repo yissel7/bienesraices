@@ -50,6 +50,10 @@
     color: rgb(0, 0, 0);
 }
 
+.color-white {
+    color: white;
+}
+
 /* Menu */
 .navbar {
     background: #ffffff00 !important;
@@ -58,14 +62,14 @@
 /* Color background-contigo */
 .background-contigo {
     margin-top: 32px;
-    margin-bottom: 32px;
+    /*margin-bottom: 32px;*/
     background-position: left 10px bottom 10px;
     background-repeat: no-repeat;
     background-color: #f3f7f8;
     background-size: contain;
 }
 
-.footer-image {
+.encuentra-imagen {
     background-image: url(../images/encuentra.jpg);
     color: white;
 }
@@ -166,3 +170,7 @@
     padding: 0 12px 12px 12px;
 }
 
+/* footer */
+.footer {
+    background-color: #f3f7f8;
+}
