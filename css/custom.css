@@ -14,14 +14,24 @@
     text-align: center;
 }
 
+/* espacio de textos */
 .space {
     padding: 4rem;
 }
+.space-section {
+    padding: 1.2rem;
+}
+.space-h {
+    background-color: transparent!important;
+    padding: 0 0 20px!important;
+}
+
 .text-form {
     font-size: 2rem !important;
 }
 
 /* Título de Index */
+
 .home-titulo {
     text-shadow: 5px 5px 10px rgba(0,0,0,.2);
     font-weight: 700;
@@ -30,7 +40,14 @@
     text-align: center;
     margin: 17px 0 32px;
 }
-
+/* Título de section */
+.title-home {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    margin-bottom: 16px;
+    color: rgb(0, 0, 0);
+}
 
 /* Menu */
 .navbar {
