@@ -194,7 +194,7 @@
 }
 
 .redes-sociales ul li a:hover {
-    color: #285eaf;
+    color: #4478c737;
 }
 
 /* Menu Footer */
@@ -215,4 +215,19 @@
     text-decoration: none;
     color: #979595;
     font-weight: bold;
+}
+.instagram {
+    color: #fc19ac !important;
+}
+
+.youtube {
+    color: red;
+}
+
+.facebook {
+    color: #0a66ff;
+}
+
+.linkdin {
+    color: #0b66c2;
 }
