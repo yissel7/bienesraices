@@ -192,3 +192,27 @@
 .redes-sociales ul li a {
     text-decoration: none;
 }
+
+.redes-sociales ul li a:hover {
+    color: #285eaf;
+}
+
+/* Menu Footer */
+.menu-footer ul {
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    margin: 0px;
+    max-width: 12rem;
+    padding: 0px;
+}
+.menu-footer ul li a {
+    text-decoration: none;
+    color: #716d6d;
+    font-weight: bold;
+}
+.menu-footer ul li a:hover {
+    text-decoration: none;
+    color: #979595;
+    font-weight: bold;
+}
