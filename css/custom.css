@@ -231,3 +231,12 @@
 .linkdin {
     color: #0b66c2;
 }
+
+.address-business {
+    color: #716d6d !important;
+    padding-bottom: 12px;
+}
+.address-color {
+    color: #5a5656;
+    padding: 12px;
+}
